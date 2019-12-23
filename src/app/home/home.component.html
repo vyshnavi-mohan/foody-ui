@@ -1,0 +1,267 @@
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Hunger Box</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="cart" class="w3-bar-item w3-button">View Cart</a>
+      <a href="login" class="w3-bar-item w3-button">Login</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://c.wallhere.com/photos/df/8b/1366x768_px_Blurred_bottles_food_Glasses_landscape_Paprika_spice_Plates-1337057.jpg!d" alt="Hamburger Catering">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Hunger Box</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+    
+    <div  class="w3-col m6 w3-padding-large">
+         <h1 class="w3-center">About Hunger Box</h1><br>
+      <h5 class="w3-center">Tradition since 1889</h5>
+      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <section class="menu_list mt-60 mb-60" id="menu">
+    <div class="container">
+       <div class="row">
+          <div class="col-xl-12">
+             <div class="section-title text-center mb-60">
+                <p>Famous for good food</p>
+                <h4>our menu</h4>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <ul class="nav nav-tabs menu_tab" id="myTab" role="tablist">
+             <li class="nav-item">
+                <a class="nav-link" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-selected="">Breakfast</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-selected="false">Lunch</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link active show" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-selected="true">Dinner</a>
+             </li>
+          </ul>
+       </div>
+
+
+       <div class="row">
+          <div class="tab-content col-xl-12" id="myTabContent">
+             <div class="tab-pane fade" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                <div class="row">
+                   <div class="col-md-6">
+                      <div class="single_menu_list">
+                         <img src="/assets/Pancakes.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Orginal Pancake  <span>$45</span></h4>
+                            <p>Flat cake,thin and round, prepared from starch based batter that may contain eggs,milk and butter.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/Omelette.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Sunlight Omelette  <span>$45</span></h4>
+                            <p>An omelette or omelet is a dish made from beaten eggs quickly fried with butter or oil in a frying pan(without stirring as in scrambled egg.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/ham.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Ham and Egg Omelete <span>$45</span></h4>
+                            <p>Combination of beaten eggs with ham.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col-md-6">
+                      <div class="single_menu_list">
+                         <img src="/assets/waffels.jfif" alt="">
+                         <div class="menu_content">
+                            <h4>Waffles  <span>$45</span></h4>
+                            <p>Is a leavened batter or dough cooked between two plates patterned to give a characteristic size shape and surface impressio</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/French.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>French Toast  <span>$45</span></h4>
+                            <p>Is a dished made of bread soaked in milk, then in beaten eggs and then fried a variation from the traditional spanish dessert called Torijja.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/burger.jfif" alt="">
+                         <div class="menu_content">
+                            <h4>Chicken Burger  <span>$45</span></h4>
+                            <p>Is a sandwich consisting of one or more cooked patties of ground meat,placed inside a sliced bread roolor bun.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                <div class="row">
+                   <div class="col-md-6">
+                      <div class="single_menu_list">
+                         <img src="/assets/Spaghetti.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Pasta and Meat Sauce  <span>$45</span></h4>
+                            <p>Our delicious homemade meat sauce tossed with pasta, topped with Asiago and Parmesan cheese With an Italian sausage link or one homemade meatball.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/Tortellini.jfif" alt="">
+                         <div class="menu_content">
+                            <h4>Tortellini  <span>$45</span></h4>
+                            <p>Beef-filled spinach pasta tossed with your choice of our homemade alfredo or marinara sauce.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/Chunky.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Pasta Marinara  <span>$45</span></h4>
+                            <p>Pasta tossed with our homemade marinara sauce, topped with freshly shredded Asiago and Parmesan cheese .</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col-md-6">
+                      <div class="single_menu_list">
+                         <img src="/assets/Fetuchini.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Fettuccini Afredo <span>$45</span></h4>
+                            <p>Our freshly made alfredo sauce tossed with fettuccini noodles, shredded Asiago and Parmesan cheese 9.99. *ADD Chicken or Shrimp 4.99 extra / ADD NY Steak or Salmon.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/Santa.jfif" alt="">
+                         <div class="menu_content">
+                            <h4>Santa Fe Chicken Sandwich <span>$45</span></h4>
+                            <p>Seasoned chicken breast topped with green chilies and Jack cheese with our spicy Ranch sauce on a buttered, toasted onion roll.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/bbq.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>BBQ Bacon Burger  <span>$45</span></h4>
+                            <p>A freshly ground beef patty with BBQ sauce, topped with crisp bacon and melted Cheddar cheese on a buttered, toasted sesame bun.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="tab-pane fade active show" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                <div class="row">
+                   <div class="col-md-6">
+                      <div class="single_menu_list">
+                         <img src="/assets/salmon.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Salmon Florentine  <span>$45</span></h4>
+                            <p>A broiled salmon filet, topped with fresh sauteed spinach and our delicious homemade hollandaise sauce, served with rice.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/black.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Black & Bleu Steak <span>$45</span></h4>
+                            <p>A 10-oz. NY steak coated with Cajun seasoning char-broiled to your liking, topped with crumbled bleu cheese and served with a baked potato.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/Pasta.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Pasta Italian Sausage<span>$45</span></h4>
+                            <p>Served with two Italian sausages and our homemade meat sauce, topped with freshly shredded Asiago and Parmesan cheese.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col-md-6">
+                      <div class="single_menu_list">
+                         <img src="/assets/Angel.jfif" alt="">
+                         <div class="menu_content">
+                            <h4>Angel Hair Pasta <span>$45</span></h4>
+                            <p>Fresh basil, Roma tomatoes, fresh garlic and olive oil tossed together with angel hair pasta. With goat cheese .</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/Piccata.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Chicken Piccata <span>$45</span></h4>
+                            <p>A lightly floured chicken breast sauteed with our lemon butter sauce and capers, served with rice. </p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                      <div class="single_menu_list">
+                         <img src="/assets/Philly.jpg" alt="">
+                         <div class="menu_content">
+                            <h4>Philly Cheesesteak <span>$45</span></h4>
+                            <p>Tender, thin slices of beef grilled with onions and bell peppers, special seasonings with melted Jack cheese on a French roll.</p>
+                            <button type="button" class="btn btn-danger">Add to Cart</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+      
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p><a href="https://apc.delve.office.com/?u=34902006-b224-4783-8386-2088144468ed&v=work" target="_blank" class="w3-hover-text-green">&copy;</a></p>
+</footer>
